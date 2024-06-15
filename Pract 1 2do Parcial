@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Elementos Flotantes</title>
+    <style>
+        /* Estilos para los elementos flotantes */
+        .flotante-izquierda {
+            float: left;
+            margin-right: 20px; /* Espacio entre elementos flotantes */
+        }
+        .flotante-derecha {
+            float: right;
+            margin-left: 20px; /* Espacio entre elementos flotantes */
+        }
+
+        /* Estilos para el contenedor */
+        .contenedor {
+            border: 1px solid #ccc;
+            padding: 20px;
+            overflow: auto; /* Limpiar los elementos flotantes */
+        }
+
+        /* Estilos para los elementos de texto */
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="flotante-izquierda">
+            <img src="https://via.placeholder.com/150" alt="Imagen Izquierda">
+        </div>
+        <div class="flotante-derecha">
+            <img src="https://via.placeholder.com/150" alt="Imagen Derecha">
+        </div>
+        <p>Holaa</p>
+        <p>Cómo estaas</p>
+    </div>
+</body>
+</html>
